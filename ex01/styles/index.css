@@ -1,0 +1,212 @@
+#containter {
+    width: 100%;
+}
+
+img {
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    float: left;
+    text-align: center;
+    background: black;
+}
+.small img, .large img, .medium img{
+    margin-bottom: 1%;
+}
+
+.small img{
+    width: 100%;
+    height: 25%;
+}
+
+.medium img {
+    width: 100%;
+    height: 35%;
+}
+
+.large img {
+    width: 100%;
+    height: 50%;
+}
+
+.column {
+    float: left;
+    width: 23%;
+    margin-right: 2%;
+}
+
+.column > img {
+    width: 100%;
+}
+
+body {
+    padding: 0;
+}
+
+.focus1, .focus2, .focus3, .focus4, .focus5, .focus6, .focus7, .focus8, .focus9, .focus10 {
+    position: relative;
+    color: black;
+    background-color: black;
+    opacity: 1;
+    margin-bottom: 2px;
+}
+
+.focus1 > h1, .focus4 > h1, .focus6 > h1 {
+    position: absolute;
+    transition: .5s ease;
+    bottom: 8px;
+    right: 35%;
+    top: 100px;
+    left: 0;
+    background: black;
+    opacity: 0;
+}
+.focus2 > h1 {
+    position: absolute;
+    transition: .5s ease;
+    bottom: 8px;
+    right: 35%;
+    top: 350px;
+    left: 0;
+    background: black;
+    opacity: 0;
+}
+.focus3 > h1 {
+    position: absolute;
+    transition: .5s ease;
+    bottom: 8px;
+    right: 35%;
+    top: 850px;
+    left: 0;
+    background: black;
+    opacity: 0;
+}
+.focus5 > h1 {
+    position: absolute;
+    transition: .5s ease;
+    bottom: 8px;
+    right: 35%;
+    top: 700px;
+    left: 0;
+    background: black;
+    opacity: 0;
+}
+
+.focus7 > h1 {
+    position: absolute;
+    transition: .5s ease;
+    bottom: 8px;
+    right: 35%;
+    top: 350px;
+    left: 0;
+    background: black;
+    opacity: 0;
+}
+
+.focus8 > h1 {
+    position: absolute;
+    transition: .5s ease;
+    bottom: 8px;
+    right: 35%;
+    top: 850px;
+    left: 0;
+    background: black;
+    opacity: 0;
+}
+
+.focus9 > h1 {
+    position: absolute;
+    transition: .5s ease;
+    bottom: 8px;
+    right: 35%;
+    top: 550px;
+    left: 0;
+    background: black;
+    opacity: 0;
+}
+
+.focus10 > h1 {
+    position: absolute;
+    transition: .5s ease;
+    bottom: 8px;
+    right: 35%;
+    top: 950px;
+    left: 0;
+    background: black;
+    opacity: 0;
+}
+
+.focus1:hover > h1 {
+    opacity: 1;
+    background: black;
+}
+
+.focus2:hover > h1 {
+    opacity: 1;
+    background: black;
+}
+.focus3:hover > h1 {
+    opacity: 1;
+    background: black;
+}
+.focus4:hover > h1 {
+    opacity: 1;
+    background: black;
+}
+.focus5:hover > h1 {
+    opacity: 1;
+    background: black;
+}
+.focus6:hover > h1 {
+    opacity: 1;
+    background: black;
+}
+.focus7:hover > h1 {
+    opacity: 1;
+    background: black;
+}
+.focus8:hover > h1 {
+    opacity: 1;
+    background: black;
+}
+.focus9:hover > h1 {
+    opacity: 1;
+    background: black;
+}
+.focus10:hover > h1 {
+    opacity: 1;
+    background: black;
+}
+.focus1:hover > img {
+    opacity: 0.3;
+}
+.focus2:hover > img {
+    opacity: 0.3;
+}
+.focus3:hover > img {
+    opacity: 0.3;
+}
+.focus4:hover > img {
+    opacity: 0.3;
+}
+.focus5:hover > img {
+    opacity: 0.3;
+}
+.focus6:hover > img {
+    opacity: 0.3;
+}
+.focus7:hover > img {
+    opacity: 0.3;
+}
+.focus8:hover > img {
+    opacity: 0.3;
+}
+.focus9:hover > img {
+    opacity: 0.3;
+}
+.focus10:hover > img {
+    opacity: 0.3;
+}
+
